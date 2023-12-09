@@ -1,0 +1,12 @@
+#lista {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul .columna {
+    margin: 1px 20px 1px 20px;
+}
