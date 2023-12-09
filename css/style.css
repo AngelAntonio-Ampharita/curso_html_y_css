@@ -1,6 +1,6 @@
 #lista {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 ul {
@@ -8,5 +8,12 @@ ul {
 }
 
 ul .columna {
+    text-align: center;
     margin: 1px 20px 1px 20px;
+}
+
+.columna img {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
