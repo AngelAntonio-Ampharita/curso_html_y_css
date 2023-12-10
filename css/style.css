@@ -1,3 +1,7 @@
+main {
+    text-align: center;
+}
+
 #lista {
     display: flex;
     justify-content: space-around;
