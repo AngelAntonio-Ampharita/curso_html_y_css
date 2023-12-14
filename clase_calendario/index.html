@@ -31,19 +31,19 @@
         <hr />
         <h3>Formulario con atributos "autocomplete" y "require"</h3>
         <form action="">
-            <label for="nombre"><span>¿Cuál es tu nombre?</span></label>
-                <input type="text" name="nombre" id="nombre" autocomplete="given-name" />
-            <label for="correo">
-                <span>¿Cuál es tu correo?</span>
-                <input type="email" name="correo" id="correo" autocomplete="email" />
+            <label for="name"><span>¿Cuál es tu nombre?</span></label>
+                <input type="text" name="name" id="name" autocomplete="name" required/>
+            <label for="email">
+                <span>¿Cuál es tu email?</span>
+                <input type="email" name="email" id="email" autocomplete="email" required/>
             </label>
-            <label for="pais">
+            <label for="country">
                 <span>¿En qué país vives?</span>
-                <input type="text" name="pais" id="pais" autocomplete="country" />
+                <input type="text" name="country" id="country" autocomplete="country" required/>
             </label>
-            <label for="cp">
+            <label for="postal-code">
                 <span>¿Cuál es tu código postal?</span>
-                <input type="text" name="cp" id="cp" autocomplete="postal-code" />
+                <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" required/>
             </label>
             <input type="submit" value="Send">
         </form>
