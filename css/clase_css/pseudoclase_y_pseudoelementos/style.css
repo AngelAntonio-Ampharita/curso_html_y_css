@@ -1,0 +1,34 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #22A39F;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: #F3EFE0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color: #434242;
+}
+.main-nav__item a:active {
+    color: #222222;
+}
+
+.main-nav__item a::after {
+    content: " | ";
+}
+
+.section-list__item {
+    list-style: none;
+}
+.section-list__item span{
+    color: red;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
