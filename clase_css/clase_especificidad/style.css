@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
+    color: rebeccapurple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -9,4 +16,26 @@ h1 {
 .title {
     font-size: 20px;
     font-family: monospace;
+}
+
+#main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+}
+
+#main-nav a {
+    color: whitesmoke;
+    background-color: #13a4a4;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 0px 2px 0px 2px;
+}
+
+#main-nav .nav-special {
+    background-color: burlywood;
 }
