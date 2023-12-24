@@ -1,0 +1,8 @@
+/* Hermanos adyacentes */
+
+h2 + p {
+    color: brown;
+}
+
+/* Hermanos generales */
+
