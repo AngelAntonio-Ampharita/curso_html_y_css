@@ -16,4 +16,12 @@
 }
 
 
-/*  */
+/* Hijos y descencdientes */
+
+.div3 div > p {
+    color: tomato;
+}
+
+.div3 div p {
+    font-style: italic;
+}
