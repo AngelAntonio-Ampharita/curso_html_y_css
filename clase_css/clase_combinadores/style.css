@@ -1,8 +1,19 @@
+.title {
+    text-decoration: underline;
+}
+
 /* Hermanos adyacentes */
 
-h2 + p {
+.div1 h2 + p {
     color: brown;
 }
 
 /* Hermanos generales */
 
+.div2 h2 ~ p {
+    color: rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+
+/*  */
