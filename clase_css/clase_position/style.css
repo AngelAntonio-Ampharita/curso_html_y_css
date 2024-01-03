@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: burlywood;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem 0 0.5rem 0;
+    border-bottom: 1px solid #38658f;
+}
+
+.parent {
+    border: 2px black dotted;
+    display: inline-block;
+    float: none;
+}
+
+.box {
+    display: inline-block;
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
+
+.two {
+    background-color: blanchedalmond;
+}
+
+/*Absolute*/
+
+.absolute .two {
+    position: absolute;
+}
+
+/* Relative */
+
+.relative .two {
+    position: relative;
+    bottom: 15px;
+}
+
+/* Sticky */
+
+.sticky .two {
+    position: sticky;
+    top: 5px;
+}
+
+/* Fixed */
+
+.fixed .two {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
+
+/* Ejercicio */
+
+.ejercicio {
+    width: 50vw;
+    height: 50vh;
+    background-color: darkkhaki;
+    border: 2px solid #465546;
+    border-radius: 2px;
+}
