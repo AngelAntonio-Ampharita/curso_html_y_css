@@ -12,10 +12,18 @@
     font-style: italic;
 }
 
+h1 {
+    margin-top: 2rem;
+}
+
 h2 {
     text-align: center;
     margin: 1rem 0 0.5rem 0;
     border-bottom: 1px solid #38658f;
+}
+
+p {
+    margin: 1rem;
 }
 
 .parent {
@@ -65,10 +73,38 @@ h2 {
 
 /* Ejercicio */
 
-.ejercicio {
+.ejercicio .main-box {
+    display: inline-block;
+    text-align: center;
+    margin: 20vh 0 20vh;
+    padding-bottom: 1rem;
     width: 50vw;
-    height: 50vh;
-    background-color: darkkhaki;
-    border: 2px solid #465546;
+    min-height: 50vh;
+    background-color: #86B6F6;
+    border: 2px solid #062029;
     border-radius: 2px;
+}
+
+.ejercicio .box-title {
+    position: relative;
+    background-color: #EEF5FF;
+    height: 4rem;
+    display: inline-flex;
+    min-width: fit-content;
+    padding: 1.5rem;
+    border: #062029 solid 2px;
+    border-radius: inherit;
+    bottom: 2rem;
+    align-items: center;
+}
+
+.main-box .text {
+    background-color: inherit;
+    padding: 1.5rem;
+    font-style: italic;
+}
+
+.ejercicio .image {
+    max-width: 50%;
+    border: #176B87 solid 1px;
 }
