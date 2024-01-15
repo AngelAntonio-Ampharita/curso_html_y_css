@@ -80,6 +80,7 @@ nav ul li a:hover::before{
 .aside {
     background-color: #80BCBD;
     border-right: #444 solid 0.1rem;
+    min-width: 28rem;
     width: 28rem;
     font-size: inherit;
     padding: 0 1rem;
@@ -92,7 +93,6 @@ nav ul li a:hover::before{
 } 
 .aside .aside-element{
     width: 90%;
-    min-height: 19rem;
     height: fit-content;
     content: '';
     background-color: #D5F0C1;
@@ -113,8 +113,9 @@ main {
     font-size: 3.5rem;
 }
 
-.main-image {
+.main-image img {
     width: 50%;
+    max-width: 38rem;
 }
 
 /* Footer */
