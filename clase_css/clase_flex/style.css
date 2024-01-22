@@ -15,9 +15,6 @@ body {
 .container {
     border: .3rem solid #000;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .box {
@@ -30,8 +27,10 @@ body {
 
 .box1 {
     background-color: #ad6464;
+    flex-grow: 1;
 }.box2 {
     background-color: #d7e053;
+    flex-grow: 1;
 }.box3 {
     background-color: #7edd8d;
 }.box4 {
